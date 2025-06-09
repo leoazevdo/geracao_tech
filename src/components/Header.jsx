@@ -18,7 +18,7 @@ const HeaderContainer = styled.header`
     & li a{
         text-decoration: none;
         color: #ffffff
-        font-size: 18px;
+        font-size: 11px;
         &:hover, &.active {
         color: #ffffff96
       
@@ -43,7 +43,8 @@ const Header = () => {
           <ul>
             <li><NavLink to={"/"}>Home</NavLink></li>
             <li><NavLink to={"/produtos"}>Produtos</NavLink></li>
-            <li><NavLink to={"/contato"}>Contato</NavLink></li>
+            <li><NavLink to={"*"}>Categorias  </NavLink></li>
+            <li><NavLink to={"*"}>Meus Pedidos</NavLink></li>
           </ul>
         </nav>
 
