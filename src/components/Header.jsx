@@ -26,12 +26,17 @@ const LogoContainer = styled.header`
 const Left = styled.div`
   position: absolute;
   left: 70px;
+  & img {
+    padding: 10px;
+    padding-left: 30px;
+    width: 120px;
+  }
 `;
 
 const Center = styled.div`
   display: flex;
   align-items: center;
-  padding-right: 40px;
+  padding-right: 9%;
 
 `;
 
@@ -51,18 +56,20 @@ const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
   
   & nav ul {
     display: flex;
     gap: 36px;
+    padding:20px 40px ;
     list-style: none;
+    font-family:  'Inter', sans-serif;
     & li a{
         text-decoration: none;
-        color: #000000
+        color: #474747
         font-size: 11px;
         &:hover, &.active {
-        color: #00000095
+        color:#474747
       
         }
         
